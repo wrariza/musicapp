@@ -1,0 +1,19 @@
+{
+  "name": "musicapp",
+  "version": "0.1.0",
+  "description": "app angular whit use api spotify.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify",
+    "angular"
+  ],
+  "author": "ricardo ariza",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
