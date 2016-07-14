@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<title>musicapp</title>
 </head>
-<body ng-app>
+<body ng-app="musicapp">
 
-	<h1>{{'Music App'}}</h1>
+	<section ng-controller="ArtistController as artCtr">
+		<h1>{{artCtr.artis.name | uppercase}}</h1>
+	</section>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
